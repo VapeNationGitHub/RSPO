@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:zmetal="http://example.org/nothing"
+      metal:import="@TEMPLATEDIR@page.pt"
+      metal:use-macro='macros["main"]'
+      >
+  <metal:tag metal:fill-slot="head"><!-- Hello --></metal:tag>
+
+  <metal:tag metal:fill-slot="content">
+      <metal:tag metal:use-macro='macros["table"]'>
+      <metal:tag metal:fill-slot="header">
+          <th>Предложение</th>
+      </metal:tag>
+      <metal:tag metal:fill-slot="body">
+          <tr tal:repeat="offer model.Objects">
+              <td><a tal:content="offer.Object.Address">Суть предложения</a></td>
+          </tr>
+      </metal:tag>
+    </metal:tag>
+  </metal:tag>
+</html>

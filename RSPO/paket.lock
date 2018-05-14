@@ -1,0 +1,50 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    BrightstarDB (1.13.3) - restriction: >= net461
+      BrightstarDBLibs (>= 1.13.3)
+    BrightstarDB.CodeGeneration (1.13.3)
+      BrightstarDBLibs (>= 1.13.3)
+    BrightstarDB.CodeGeneration.Console (1.13.3)
+    BrightstarDB.CodeGeneration.T4 (1.13.3)
+      BrightstarDB.CodeGeneration (>= 1.13.3)
+    BrightstarDBLibs (1.13.3)
+      dotNetRDF (>= 1.0.9)
+      Newtonsoft.Json (>= 7.0.1)
+    CsQuery (1.3.4)
+    dotNetRDF (2.0.1) - restriction: >= net461
+      HtmlAgilityPack (>= 1.6) - restriction: || (>= net40) (>= netstandard1.4)
+      Newtonsoft.Json (>= 10.0.3) - restriction: || (>= net40) (>= netstandard1.4)
+      VDS.Common (>= 1.9) - restriction: || (>= net40) (>= netstandard1.4)
+    Hash (2.0.1) - restriction: >= net461
+    HtmlAgilityPack (1.7.1) - restriction: >= net461
+    ICSharpCode.NRefactory (5.5.1) - restriction: >= net461
+      Mono.Cecil (>= 0.9.5.4)
+    Mono.Cecil (0.10) - restriction: >= net461
+    Mono.Posix (5.4.0.201) - restriction: >= net461
+    Nancy (1.4.4) - restriction: >= net461
+    Nancy.Hosting.Self (1.4.1) - restriction: >= net461
+      Nancy (>= 1.4.1)
+    Nancy.Testing (1.4.1)
+      CsQuery (>= 1.3.3)
+      Nancy (>= 1.4.1)
+    Newtonsoft.Json (11.0.1) - restriction: >= net461
+    SharpCompress (0.19.2) - restriction: >= net461
+    SharpTAL (3.0) - restriction: >= net461
+    System.Xml.XDocument (4.3) - restriction: >= net461
+    VDS.Common (1.9) - restriction: >= net461
+    xunit (2.3.1) - restriction: >= net461
+      xunit.analyzers (>= 0.7)
+      xunit.assert (2.3.1)
+      xunit.core (2.3.1)
+    xunit.abstractions (2.0.1) - restriction: >= net461
+    xunit.analyzers (0.8) - restriction: >= net461
+    xunit.assert (2.3.1) - restriction: >= net461
+    xunit.core (2.3.1) - restriction: >= net461
+      xunit.extensibility.core (2.3.1)
+      xunit.extensibility.execution (2.3.1)
+    xunit.extensibility.core (2.3.1) - restriction: >= net461
+      xunit.abstractions (>= 2.0.1) - restriction: >= netstandard1.1
+    xunit.extensibility.execution (2.3.1) - restriction: >= net461
+      xunit.extensibility.core (2.3.1) - restriction: >= netstandard1.1
+    xunit.runner.console (2.3.1) - restriction: >= net461
+    xunit.runner.visualstudio (2.3.1) - restriction: >= net461

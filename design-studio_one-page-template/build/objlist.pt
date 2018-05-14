@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:zmetal="http://example.org/nothing"
+      metal:import="@TEMPLATEDIR@page.pt"
+      metal:use-macro='macros["main"]'
+      >
+  <metal:tag metal:fill-slot="head"><!-- Hello --></metal:tag>
+
+  <metal:tag metal:fill-slot="content">
+      <table>
+          <thead>
+              <tr>
+                  <th>Название</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr tal:repeat="obj model.Objects">
+                  <td><a tal:content="obj">Название объекта недвижимости</a></td>
+              </tr>
+          </tbody>
+      </table>
+  </metal:tag>
+</html>

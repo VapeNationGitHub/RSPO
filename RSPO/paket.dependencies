@@ -1,0 +1,28 @@
+source https://www.nuget.org/api/v2
+
+nuget BrightstarDB 1.13.3 restriction: >= net461
+nuget BrightstarDB.CodeGeneration.Console
+nuget BrightstarDB.CodeGeneration.T4
+nuget BrightstarDBLibs 1.13.3 restriction: >= net461
+nuget dotNetRDF 2.0.1 restriction: >= net461
+nuget Hash 2.0.1 restriction: >= net461
+nuget HtmlAgilityPack 1.7.1 restriction: >= net461
+nuget Mono.Posix 5.4.0.201 restriction: >= net461
+nuget Nancy 1.4.4 restriction: >= net461
+nuget Nancy.Hosting.Self 1.4.1 restriction: >= net461
+nuget Nancy.Testing
+nuget Newtonsoft.Json 11.0.1 restriction: >= net461
+nuget SharpCompress 0.19.2 restriction: >= net461
+nuget SharpTAL 3.0.0 restriction: >= net461
+nuget ICSharpCode.NRefactory 5.5.1 restriction: >= net461
+nuget System.Xml.XDocument 4.3.0 restriction: >= net461
+nuget VDS.Common 1.9.0 restriction: >= net461
+nuget xunit 2.3.1 restriction: >= net461
+nuget xunit.abstractions 2.0.1 restriction: >= net461
+nuget xunit.analyzers 0.8.0 restriction: >= net461
+nuget xunit.assert 2.3.1 restriction: >= net461
+nuget xunit.core 2.3.1 restriction: >= net461
+nuget xunit.extensibility.core 2.3.1 restriction: >= net461
+nuget xunit.extensibility.execution 2.3.1 restriction: >= net461
+nuget xunit.runner.console 2.3.1 restriction: >= net461
+nuget xunit.runner.visualstudio 2.3.1 restriction: >= net461
